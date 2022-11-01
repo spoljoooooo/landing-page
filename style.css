@@ -10,7 +10,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 0px 100px;
+    padding: 0px 200px;
     background-color: #1F2937;
 }
 
@@ -38,3 +38,53 @@ body {
     color: #F9FAF8;
     font-weight: bold;
 }
+
+/* UPPER CONTENT */
+
+.upper {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 100px 200px;
+}
+
+.upper div {
+    flex: auto;
+    float: left;
+    width: 50%;
+}
+
+.upper .upper-text .hero-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.upper p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 10px 0px;
+}
+
+.upper .upper-image {
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.upper .btn {
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: #3882F6;
+    color: white;
+    width: 150px;
+}
+
+.upper .upper-text {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+}
+

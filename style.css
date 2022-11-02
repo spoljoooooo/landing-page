@@ -74,12 +74,14 @@ p {
     padding: 30px;
 }
 
-.upper .btn {
+.btn {
     border-radius: 10px;
     padding: 10px 30px;
     background-color: #3882F6;
     color: white;
     width: 150px;
+    height: 40px;
+    border: 2px solid white;
 }
 
 .upper .upper-text {
@@ -159,3 +161,28 @@ p {
     font-size: 15px;
 }
 
+/* SIGN-UP */ 
+
+.signup {
+    padding: 50px 200px;
+}
+
+.signup-box {
+    display: flex;
+    background-color: #3882F6;
+    padding: 30px;
+}
+
+.signup-box .signup-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-box div {
+    flex: auto;
+}
+
+#bolder {
+    font-weight: bolder;
+}

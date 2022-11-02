@@ -133,3 +133,29 @@ p {
 
 /* LOWER CONTENT */
 
+.lower {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 350px;
+    background-color: #E5E7EB;
+}
+
+.lower .quote p {
+    font-weight: 200;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.lower .author {
+    display: flex;
+    justify-content: right;
+}
+
+.lower .author p {
+    padding-right: 30px;
+    font-weight: bolder;
+    color: black;
+    font-size: 15px;
+}
+

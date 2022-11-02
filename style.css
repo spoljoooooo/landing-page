@@ -171,6 +171,7 @@ p {
     display: flex;
     background-color: #3882F6;
     padding: 30px;
+    border-radius: 10px;
 }
 
 .signup-box .signup-btn {
@@ -185,4 +186,13 @@ p {
 
 #bolder {
     font-weight: bolder;
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px 200px;
+    background-color: #1F2937;
 }
